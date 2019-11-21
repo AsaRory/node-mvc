@@ -1,9 +1,9 @@
 ﻿# myApp
 
 #### 介绍
-自我学习的项目管理test
 Family Education Group
-
+使用typeScript语言编写
+利用node+express搭建的后端mvc结构
 
 #### 软件架构
 软件架构说明
