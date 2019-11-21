@@ -1,0 +1,53 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "export NODE_ENV=development&&nodemon ./src/bin/www",
+    "wstart": "set NODE_ENV=production&&node ./src/bin/www",
+    "wdebug": "set NODE_ENV=development&nodemon ./src/bin/www"
+  },
+  "dependencies": {
+    "@types/uuid": "^3.4.5",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-flash": "0.0.2",
+    "express-validator": "^6.1.1",
+    "file-stream-rotator": "^0.4.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^4.2.0",
+    "lusca": "latest",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.7.7",
+    "sequelize": "^5.9.2",
+    "swagger-ui-express": "^4.0.7",
+    "typedi": "latest",
+    "typeorm": "^0.2.18",
+    "typeorm-typedi-extensions": "^0.2.3",
+    "uuid": "^3.3.3",
+    "winston": "^2.4.2",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/debug": "^4.1.4",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.0",
+    "@types/express-flash": "0.0.0",
+    "@types/lusca": "^1.6.0",
+    "@types/request": "^2.48.3",
+    "@types/swagger-ui-express": "^3.0.1",
+    "@types/winston": "^2.3.9",
+    "@types/ws": "^6.0.3",
+    "nodemon": "^1.19.1"
+  }
+}
