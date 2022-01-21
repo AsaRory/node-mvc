@@ -21,7 +21,7 @@
     "fs": "0.0.1-security",
     "http-errors": "~1.6.3",
     "jsonwebtoken": "^8.5.1",
-    "log4js": "^4.2.0",
+    "log4js": "^6.4.0",
     "lusca": "latest",
     "morgan": "~1.9.1",
     "mysql": "^2.17.1",
