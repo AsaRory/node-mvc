@@ -20,7 +20,7 @@
     "file-stream-rotator": "^0.4.1",
     "fs": "0.0.1-security",
     "http-errors": "~1.6.3",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "log4js": "^4.2.0",
     "lusca": "latest",
     "morgan": "~1.9.1",
